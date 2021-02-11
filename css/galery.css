@@ -1,0 +1,585 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+/*golobal styling*/
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+/*Header styling*/
+
+.main-header {
+   width: 100%;
+   height: 10.6vh;
+   background: #060002;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   position: relative;
+}
+
+.logo {
+   position: absolute;
+   left: 8em;
+}
+
+.main-nav {
+   width: 100%;
+   position: relative;
+   bottom: 0.3em;
+}
+
+.nav-links {
+   list-style: none;
+}
+
+.nav-links a {
+   color: #fff;
+   text-decoration: none;
+   font-family: 'Roboto', sans-serif;
+   font-weight: 600;
+}
+
+.nav-links a:hover{
+   color: #A22353;
+}
+
+.nav-itmes {
+   width: 50vw;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   position: absolute;
+   left: 40em;
+}
+
+.nav-icon{
+   list-style: none;
+}
+
+.nav-icon  i {
+   color: #fff;
+}
+
+span {
+   color: #A22353;
+}
+
+.nav-icons i {
+   color: #fff;
+}
+
+.nav-icons {
+   margin-right: 2em;
+   list-style: none;
+}
+
+/*header title*/
+
+.header-title{
+   width: 100%;
+   height: 16vh;
+   background: #b32137;
+   position: relative;
+}
+
+.btn-books {
+   display: none;
+}
+
+.header-title h1 {
+   color: #fff;
+   font-family: 'Roboto', sans-serif;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position: absolute;
+   top: 1.6em;
+   left: 22em;
+}
+
+/*gallrey first section styling*/
+
+.gallery-images{
+   width: 100%;
+   height: 100%;
+   position: relative;
+   background-color: #060002;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+}
+
+.flip-cart{
+   width: 10vw;
+   height: 15vw;
+   position: relative;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   top: 1em;
+}
+
+.inner-cart{
+   position: relative;
+   width: 10vw;
+   height: 100%;
+   transition: transform 0.8s;
+   transform-style: preserve-3d;
+   top: 1em;
+}
+
+.inner-cart:hover {
+   transform: rotateY(180deg);
+}
+
+.back-of-cart{
+   width: 10vw;
+   height: 27.7vh;
+   background-color: #dddcdc;
+   color: #060002;
+   transform: rotateY(180deg);
+   position: relative;
+   bottom: 14.01rem;
+}
+
+.image img{
+   width: 10vw;
+   height: 27.7vh;
+}
+
+.second-section{
+   width: 100%;
+   height: 44.4vh;
+   background-color: #060002;
+   position: absolute;
+   top: 15em;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+}
+
+
+
+.back-of-cart h4{
+   position: relative;
+   top: 0.4em;
+   font-size: 1.2em;
+   text-align: center;
+   text-transform: uppercase;
+   font-family: 'Roboto', sans-serif;
+}
+
+.auther{
+   font-family: 'Roboto', sans-serif;
+   margin-top: 1em;
+   text-align: center;
+}
+
+.para{
+   font-size: 0.9em;
+   font-family: 'Roboto', sans-serif;
+   text-align: center;
+   margin-top: 0.4em;
+}
+
+.btn{
+   position: relative;
+   top: 5px;
+   border: none;
+   width: 7vw;
+   height: 3vh;
+   margin-left: 1.7em;
+   cursor: pointer;
+   background-color: #A22353;
+   color: #fff;
+   border-radius: 5px 20px 5px; 
+   box-shadow: 5px 7px 16px -1px rgba(0,0,0,0.6);
+}
+
+.main-footer{
+   width: 100%;
+   height: 30vh;
+   position: relative;
+   top: 22em;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   background-image: url(/images/footer-bg.jpg);
+}
+
+.background-footer{
+   position: relative;
+   width: 100%;
+   height: 30vh;
+}
+
+.news-letter{
+   position: relative;
+   right: 20em;
+}
+
+.news-letter h4 {
+   width: fit-content;
+   position: relative;
+   bottom: 3em;
+   font-family: 'Roboto', sans-serif;
+   color: #fff;
+   letter-spacing: 1px;
+   border-bottom: 1px #fff solid;
+}
+
+.input{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.input input {
+   width: 20vw;
+   height: 6vh;
+   border: none;
+}
+
+.input button {
+   width: 8VW;
+   height: 6vh;
+   border: none;
+   background-color: #060002;
+   color: #fff;
+   font-family: 'Roboto', sans-serif;
+   font-size: 1em;
+}
+
+.links {
+   position: relative;
+   top: 5.7em;
+   width: 30vh;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   list-style: none;
+   left: 5em;
+}
+
+.social-text {
+   position: relative;
+   top: 2.3em;
+   left: 5em;
+   font-family: 'Roboto', sans-serif;
+   color: #fff;
+   border-bottom: #fff 1px Solid;
+   width: fit-content;
+}
+
+.social-links {
+   position: relative;
+   left: 7em;
+}
+
+.socail-icons a {
+   text-decoration: none;
+}
+
+.copyright {
+   width: 100%;
+   height:  4vh;
+   position: relative;
+   top: 21.9em;
+   text-align: center;
+}
+
+.copyright p {
+   color: #060002;
+   padding-top: 0.6em;
+}
+
+.copyright a {
+   text-decoration: none;
+   color: #060002;
+}
+
+@media all and (max-width: 768px) {
+   .main-nav {
+      display: none;
+   }
+
+   .main-header {
+      position: relative;
+      width: 100%;
+      height: 20vh;
+   }
+
+   .logo {
+      position: absolute;
+      top: 1em;
+      left: 18em;
+   }
+
+   .header-title h1 {
+      position: absolute;
+      left: 10em;
+      top: 1.3em;
+   }
+
+   .gallery-images {
+      position: absolute;
+      height: 49vw;
+      width: 100%;
+   }
+
+   .flip-cart {
+      width: 17vw;
+      position: relative;
+      margin-bottom: 11em;
+      
+   }
+
+   .para {
+      display: none;
+   }
+   
+   .back-of-cart {
+      position: absolute;
+      width: 17vw;
+      top: 1em;
+   }
+
+   .image {
+      width: 17vw;
+   }
+
+   .image img {
+      width: 17vw;
+      position: absolute;
+      top: 1em;
+   }
+
+   .flip-cart-1 {
+      display: none
+   }
+
+   .inner-cart {
+      width: 17vw;
+   }
+
+   .btn {
+      position: absolute;
+      top: 10em;
+      right: 0.8em;
+      width: 14vw;
+      border-radius:  10px;
+   }
+   
+   .second-section {
+      display: none;
+   }
+
+   .main-footer {
+      position: relative;
+      width: 100%;
+      top: 40em;
+   }
+
+   .social-links {
+      position: absolute;
+      left: 1em;
+   }
+
+   .links {
+      width: 25vw;
+   }
+
+   .btn-books  {
+      position: absolute;
+      bottom: 20em;
+   }
+
+   .btn-books button {
+      width: 31vw;
+      height: 7vh;
+      border: NONE;
+      background-color: #A22353;
+      font-weight: 700;
+      font-size: 1em;
+      text-transform: uppercase;
+   }
+
+   .news-letter {
+      position: absolute;
+      right: 3em;
+      top: 5.3em;
+   }
+
+   .input input {
+      width: 33vw;
+   }
+
+   .input button {
+      width: 14vw;
+   }
+
+   .copyright {
+      position: absolute;
+      top: 70em;
+   }
+
+   .copyright p {
+      padding-bottom: 1em;
+   }
+
+   .responsive-div {
+      position: absolute;
+      top: 6.2em;
+      left: 24em;
+      width: 50vw;
+      height: 6vh;
+      z-index: 1000;
+      background-color: #81256C;
+   }
+
+   .responsive-div i {
+      position: absolute;
+      left: 15.4em;
+      top: 0.7rem;
+      color: #fff;
+      font-size: 1.4em;
+   }
+}
+
+@media all and (max-width: 425px) {
+   .main-header {
+      position: relative;
+      width: 100%;
+   }
+
+   .logo {
+      position: absolute;
+      left: 7em;
+   }
+
+   .responsive-div {
+      position: absolute;
+      left: 2.3em;
+      width: 80vw;
+   }
+   
+   .responsive-div i {
+      position: absolute;
+      left: 13em;
+      cursor: pointer;
+   }
+
+   .header-title h1 {
+      position: absolute;
+      left: 4.3em;
+   }
+
+   .gallery-images {
+      width: 100%;
+      height: 180vh;
+      display: block;
+   }
+
+   .flip-cart {
+      position: relative;
+      left: 9em;
+      width: 30vw;
+      height: 10vh;
+   }
+
+   .back-of-cart {
+      width: 30vw;
+   }
+
+   .image img {
+      width: 30vw;
+   }
+
+   .inner-cart {
+      width: 30vw;
+   }
+
+   .btn {
+      width: 14vw;
+      position: absolute;
+      left: 1em;
+   }
+
+   .second-section {
+      display: none;
+   }
+
+   .btn-books {  
+      position: absolute;
+      bottom: 32em;
+      left: 6.4em;
+      width: 50vw;
+   }
+
+   .btn-books button {
+      width: 50vw;
+   }
+
+   .main-footer {
+      width: 100%;
+      height: 60vh;
+      position: relative;
+      top: 94em;
+      background-size: cover;
+      display: block;
+   }
+
+   .background-footer {
+      width: 100%;
+      
+   }
+
+   .social-links {
+      width: 60vw;
+      height: 30vh;
+      position: absolute;
+      right: 20em;
+
+   }
+
+   .social-text {
+      position: absolute;
+      left: 1em;
+   }
+
+   .links {
+      position: absolute;
+      left: 1em;
+      width: 14vw;
+   }
+
+   .social-icons {
+      margin-right: 1em;
+   }
+
+   .news-letter {
+      position: absolute;
+      top: 17em;
+      left: 1em;
+   }
+
+   .input input {
+      position: absolute;
+      left: 0.7em;
+      width: 55vw;
+   }
+
+   .input button {
+      width: 20vw;
+      position: absolute;
+      left: 15em;
+   }
+
+   .copyright {
+      position: absolute;
+      top: 138em;
+   }
+}

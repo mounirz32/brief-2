@@ -1,0 +1,611 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+.main-header {
+   width: 100%;
+   height: 10.6vh;
+   background-color: #060002;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   position: relative;
+}
+
+.responsive-div {
+   display: none;
+}
+
+.logo {
+   position: absolute;
+   left: 8em;
+}
+
+.main-nav {
+   width: 100%;
+   position: static;
+   bottom: 0.3em;
+}
+
+.nav-links {
+   list-style: none;
+   position: relative;
+}
+
+.nav-links a {
+   color: #fff;
+   text-decoration: none;
+   font-family: 'Roboto', sans-serif;
+   font-weight: 600;
+   position: relative;
+}
+
+.nav-links a:hover{
+   color: #A22353;
+}
+
+.nav-itmes {
+   width: 50vw;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   position: relative;
+   left: 40em;
+}
+
+.nav-icon{
+   list-style: none;
+}
+
+.nav-icon  i {
+   color: #fff;
+}
+
+span {
+   color: #A22353;
+}
+
+.nav-icons i {
+   color: #fff;
+}
+
+.nav-icons {
+   margin-right: 2em;
+   list-style: none;
+}
+
+.header-title{
+   width: 100%;
+   height: 16vh;
+   background: #b32137;
+   position: relative;
+}
+
+.header-title h1 {
+   color: #fff;
+   font-family: 'Roboto', sans-serif;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position: absolute;
+   top: 1.6em;
+   left: 22em;
+}
+
+.header-background {
+   position: absolute;
+   width: 100%;
+   height: 20vw;
+   background-color: #060002;
+   display: flex;
+   justify-content: space-between;
+}
+
+.header-text h3 {
+   position: relative;
+   top: 4.3em;
+   left: 3em;
+   font-size: 1.4em;
+   color: #fff;
+   font-family: 'Roboto', sans-serif;
+   width: 43vw;
+   line-height: 2.2em;
+}
+
+.book-image img {
+   position: relative;
+   right: 4em;
+   top: 4em;
+   width: 40vw;
+   box-shadow: 5px 7px 16px -1px rgba(0,0,0,0.6);
+}
+
+.span-style{
+   color: #060002;
+}
+
+.header-text h1 {
+   position: relative;
+   top: 2em;
+   left: 7em;
+   font-family: 'Roboto', sans-serif;
+   color: #fff;
+   text-transform: uppercase;
+}
+
+.header-text #span{
+   background-color: #BF0A0A;
+   color: #fff;
+}
+
+.event-info {
+   position: absolute;
+   top: 45em;
+   width: 100%;
+   height: 20vh;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+}
+
+.reserve{
+   width: 14vw;
+   height: 6vh;
+   border: none;
+   background-color: #BF0A0A;
+   color: #fff;
+   font-size: 1em;
+   font-weight: 700;
+   font-family: 'Roboto', sans-serif;
+   box-shadow: 5px 7px 16px -1px rgba(0,0,0,0.6);
+}
+
+.border{
+   position: relative;
+   width: 14vw;
+   height: 6vh;
+   border: 2px #060002 solid;
+   text-align: center;
+   border-radius: 10px;
+}
+
+.border-1 {
+   position: relative;
+   width: 15vw;
+   height: 6vh;
+   border: 2px #060002 solid;
+   text-align: center;
+   border-radius: 10px;
+}
+
+.date{
+   position: relative;
+   top: 0.8em;
+   font-family: 'Roboto', sans-serif;
+   color: #060002;
+}
+
+.date i {
+   position: relative;
+   right: 0.6em;
+}
+
+.location{
+   position: relative;
+   top: 0.8em;
+   font-family: 'Roboto', sans-serif;
+   color: #060002;
+}
+
+.main-footer{
+   width: 100%;
+   height: 30vh;
+   position: relative;
+   top: 46em;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   background-image: url(/images/footer-bg.jpg);
+}
+
+.background-footer{
+   position: relative;
+   width: 100%;
+   height: 30vh;
+}
+
+.news-letter{
+   position: relative;
+   right: 20em;
+}
+
+.news-letter h4 {
+   width: fit-content;
+   position: relative;
+   bottom: 3em;
+   font-family: 'Roboto', sans-serif;
+   color: #fff;
+   letter-spacing: 1px;
+   border-bottom: 1px #fff solid;
+}
+
+.input{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.input input {
+   width: 20vw;
+   height: 6vh;
+   border: none;
+}
+
+.input button {
+   width: 8VW;
+   height: 6vh;
+   border: none;
+   background-color: #060002;
+   color: #fff;
+   font-family: 'Roboto', sans-serif;
+   font-size: 1em;
+}
+
+.links {
+   position: relative;
+   top: 5.7em;
+   width: 30vh;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   list-style: none;
+   left: 5em;
+}
+
+.social-text {
+   position: relative;
+   top: 2.3em;
+   left: 5em;
+   font-family: 'Roboto', sans-serif;
+   color: #fff;
+   border-bottom: #fff 1px Solid;
+   width: fit-content;
+}
+
+.social-links {
+   position: relative;
+   left: 7em;
+}
+
+.socail-icons a {
+   text-decoration: none;
+}
+
+.copyright {
+   width: 100%;
+   height:  4vh;
+   position: relative;
+   top: 46em;
+   text-align: center;
+}
+
+.copyright p {
+   color: #060002;
+   padding-top: 0.4em;
+}
+
+.copyright a {
+   text-decoration: none;
+   color: #060002;
+}
+
+
+/* RESPONSEV SECTION */
+
+
+
+@media all and (max-width: 768px) {
+   .main-nav {
+      display: none;
+   }
+
+   .logo  img{
+      width: 12vw;
+   }
+
+   .main-header {
+      width: 100vw;
+      position: relative;
+   }
+
+   .header-title {
+      position: relative;
+   }
+
+   .header-title  h1{
+      position: absolute;
+      left: 11em;
+      top: 1.3em;
+   }
+
+   .header-background{
+      width: 100%;
+      height: 50vh;
+   }
+
+   .header-text {
+      width: 100%;
+      position: relative;
+   }
+
+   .header-text h1 {
+      position: absolute;
+      left: 1.7em;
+      top: 2em;
+   }
+
+   #span {
+      margin-left: 0.5em;
+   }
+
+   .header-text h3 {
+      position: absolute;
+      top: 7.7em;
+      left: 2em;
+      line-height: 2rem;
+      font-size: 1.3rem;
+   }
+
+   .book-image {
+      position: relative;
+      width: 312px;
+      height: 205px;
+   }
+
+   .book-image img {
+      position: absolute;
+      top: 5em;
+      right: 2em;
+   }
+
+   .event-info {
+      width: 100%;
+   }
+
+   .reserve {
+      width: 23vw;
+   }
+
+   .border {
+      width: 25vw;
+      text-align: center;
+   }
+
+   .border-1 {
+      width: 28vw;
+   }
+
+   .background-footer {
+      width: 100%;
+      position: relative;
+   }
+
+   .social-links {
+      position: absolute;
+      left: 1em;
+   }
+
+   .news-letter {
+      position: absolute;
+      right: 7em;
+      top: 5.4em;
+   }
+
+   .input input {
+      width: 25vw;
+   }
+
+   .input button {
+      width: 14vw;
+      position:  absolute;
+      left: 12em;
+   }
+
+   .responsive-div {
+      position: absolute;
+      top: 2em;
+      left: 24em;
+      width: 50vw;
+      height: 6vh;
+      z-index: 1000;
+      background-color: #81256C;
+   }
+
+   .responsive-div i {
+      position: absolute;
+      left: 15.4em;
+      top: 0.7rem;
+      color: #fff;
+      font-size: 1.4em;
+   }
+}
+
+@media all and (max-width: 425px) {
+   .main-header {
+      position: relative;
+      width: 100%;
+      height: 20vh;
+   }
+
+   .logo {
+      position: relative;
+      left: 1em;
+      width: 40vw;
+      height: 4vh;
+      position: relative;
+   }
+
+   .logo img {
+      position: absolute;
+      width: 38vw;
+      bottom: 1em;
+   }
+
+   .responsive-div {
+      position: absolute;
+      left: 4em;
+      top: 5.5em;
+      width: 69vw;
+   }
+
+   .responsive-div i {
+      position: absolute;
+      left: 11em;
+   }
+
+   .header-title {
+      width: 100%;
+      position:absolute;
+      top: 8.1em;
+   }
+
+   .header-title h1 {
+      position: absolute;
+      left: 5em;
+   }
+
+   .header-background {
+      position: absolute;
+      top: 15em;
+      display: block;
+   }
+
+   .header-text {
+      position: relative;
+      width: 100%;
+   }
+
+   .header-text h1 {
+      position: absolute;
+      left: 3em;
+      top: 2em;
+      font-size: 2em;
+   }
+
+   .header-text h3 {
+      display: none;
+   }
+
+   .book-image {
+      position: absolute;
+      top: 8em;
+      width: 50vw;
+   }
+
+   .book-image img {
+      position: absolute;
+      left: 3em;
+      width: 78vw;
+   }
+
+   .event-info {
+      position: relative;
+      top: 56em;
+      width: 95%;
+      height: 100%;
+      display: block;
+   }
+
+   .reserve {
+      position: absolute;
+      bottom: 10em;
+      left: 8em;
+      width: 45vw;
+   }
+
+   .border {
+      position: absolute;
+      left: 8em;
+      bottom: 4em;
+      width: 45vw;
+   }
+
+   .border-1 {
+      position: absolute;
+      width: 51vw;
+      left: 7.3em;
+   }
+
+   .main-footer {
+      position: relative;
+      top: 70em;
+      width: 100%;
+      height: 50vh;
+      background-size: cover;
+   }
+
+   .background-footer {
+      position: absolute;
+      width: 58vw;
+      left: 1em;
+      display: block;
+   }
+
+   .social-links {
+      position: absolute;
+      bottom: 17em;
+   }
+
+   .social-text {
+      width: 50vw;
+   }
+
+   .social-links h4 {
+      position: absolute;
+      width: 23vw;
+      left: 1em;
+   }
+
+   .links {
+      position: absolute;
+      left: 1em;
+      width: 50vw;
+   }
+
+   .news-letter {
+      position: absolute;
+      top: 11em;
+      width: 100%;
+      height: 20vh;
+   }
+
+   .news-letter h4 {
+      position: absolute;
+      bottom: 8em;
+      right: 10em;
+      height: fit-content;
+   }
+
+   .input input {
+      position: absolute;
+      left: 12em;
+      bottom: 4em;
+      width: 50vw;
+   }
+
+   .input button {
+      width: 20vw;
+      position: absolute;
+      bottom: 3.3em;
+      left: 23em;
+   }
+
+   .copyright {
+      position: absolute;
+      top: 101em;
+      padding: 0;
+      height: 3vh;
+   }
+}
