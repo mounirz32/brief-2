@@ -114,12 +114,12 @@ span {
 
 .flip-cart{
    width: 10vw;
-   height: 15vw;
+   height: 19vw;
    position: relative;
    display: flex;
    justify-content: space-evenly;
    align-items: center;
-   top: 1em;
+   bottom: em;
 }
 
 .inner-cart{
